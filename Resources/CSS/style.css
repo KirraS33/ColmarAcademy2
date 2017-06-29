@@ -21,7 +21,6 @@ body {
 	padding-left: 24px;
 	justify-content: space-between;
     align-items: center;
-	
 }
 
 .Mobile-menu {
@@ -34,6 +33,5 @@ body {
 
 .menu li {
 	padding-right: 16px;
-	display: inline;
-	
+	display: inline;	
 }
