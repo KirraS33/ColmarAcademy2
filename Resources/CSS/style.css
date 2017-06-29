@@ -1,2 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
+
+/* placeholder border */
+div {
+	border: solid 1px black;
+}
