@@ -72,17 +72,29 @@ body {
 
 .image-block {
 	padding: 32px 24px 32px 24px;
-
+	width: 60%;
 }
 
 .content-block img {
-	width: 60%;
+	width: 100%;
 	height: auto;
+	
 }
 
 .news-blocks {
 	width: 423px;
+	flex-direction: column;
+}
 
+.news-blocks img {
+	float: left;
+	padding: 16px;
+}
+
+.news {
+	display: inline-flex;
+	align-items: center;
+	
 }
 
 h1 {
@@ -110,11 +122,21 @@ h4 {
 	color:lightslategrey;
 }
 
+h6 {
+	font-weight: bold;
+	color: #4C4C4C;
+}
+
 .Start-learning {
 	display: inline-flex;
 	width: 100%;
 	align-items: center;
 	flex-wrap: wrap;
+}
+
+.Start-learning h4 {
+	display: block;
+	text-align: center;
 }
 
 p {
@@ -123,6 +145,10 @@ p {
 
 video {
 	width: 60%;
+}
+
+.thesis-main {
+
 }
 
 
