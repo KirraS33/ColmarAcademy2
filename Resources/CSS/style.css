@@ -131,12 +131,45 @@ h6 {
 	display: inline-flex;
 	width: 100%;
 	align-items: center;
+	justify-content: center;
 	flex-wrap: wrap;
+}
+
+.learning-block {
+	max-width: 25%;
+	padding: 1rem 1rem 1.5rem 1rem;
+	margin-right: 2rem;
+	margin-bottom: 2rem;
+}
+
+.learning-block img {
+	max-width: 100%;
+}
+
+.learning-block h6 {
+	padding-top: 1rem;
 }
 
 .Start-learning h4 {
 	display: block;
 	text-align: center;
+}
+
+.Thesis {
+	display: inline-flex;
+	width: 100%;
+	align-items: center;
+}
+
+.Thesis .news {
+	width: 423px;
+	flex-direction: column;
+	display: block;
+}
+
+.Thesis img {
+	float: left;
+	padding: 16px;
 }
 
 p {
@@ -147,8 +180,6 @@ video {
 	width: 60%;
 }
 
-.thesis-main {
 
-}
 
 
