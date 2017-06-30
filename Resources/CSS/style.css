@@ -22,6 +22,14 @@ body {
 	padding-left: 24px;
 	justify-content: space-between;
     align-items: center;
+	width: 100%;
+}
+
+.logo-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .Mobile-menu {
@@ -30,6 +38,7 @@ body {
 
 .menu {
 	align-content: center;
+	justify-content: flex-end;
 }
 
 .menu li {
@@ -38,21 +47,32 @@ body {
 }
 
 .banner {
-	display: inline;
-	padding-left: 24px;
+	display: inline-flex;
+	width: 100%;
+	align-items: center;
 }
 
 .banner img {
 	width: 60%;
 	height: auto;
+	padding: 32px 40px 32px 24px;
+	float: left;
+}
+
+.banner-info {
+	width: 25%;
+	display: inline;
 }
 
 .content-block {
 	display: inline-flex;
+	width: 100%;
+	align-items: center;
 }
 
 .image-block {
 	padding: 32px 24px 32px 24px;
+
 }
 
 .content-block img {
@@ -62,10 +82,47 @@ body {
 
 .news-blocks {
 	width: 423px;
+
+}
+
+h1 {
+	font-weight: bold;
+	display: inline;
+	color: #4C4C4C;
+	
 }
 
 h2 {
+	color: gray;
+	display: inline;
+}
+
+h3 {
+	font-size: 2rem;
+	font-weight: bold;
+	color: lightslategrey;
+}
+
+h4 {
 	padding-top: 32px;
 	font-weight: bold;
 	font-size: 1.5rem;
+	color:lightslategrey;
 }
+
+.Start-learning {
+	display: inline-flex;
+	width: 100%;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+p {
+	padding-top: 24px;
+}
+
+video {
+	width: 60%;
+}
+
+
