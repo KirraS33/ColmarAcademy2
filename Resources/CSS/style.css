@@ -156,20 +156,30 @@ h6 {
 }
 
 .Thesis {
-	display: inline-flex;
+	display: flex;
 	width: 100%;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
-.Thesis .news {
-	width: 423px;
-	flex-direction: column;
-	display: block;
+.thesis-main {
+	padding-left: 1.5rem;
+	max-width: 60%;
+}
+
+.thesis-subs {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 423px;
+    margin-left: 50px;
+    margin-right: -50px;
 }
 
 .Thesis img {
-	float: left;
-	padding: 16px;
+	
+	padding: 1rem;
+	width: 35%;
 }
 
 p {
@@ -177,7 +187,12 @@ p {
 }
 
 video {
-	width: 60%;
+	max-width: 100%;
+}
+
+footer {
+	display: inline;
+	padding-left: 1.5rem;
 }
 
 
