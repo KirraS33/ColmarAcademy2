@@ -18,6 +18,8 @@ body {
 	margin: 0 auto;
 }
 
+/* Navigation */
+
 .nav {
 	height: 64px;
 	display: inline-flex;
@@ -44,9 +46,11 @@ body {
 }
 
 .menu li {
-	padding-right: 16px;
+	padding-right: 1rem;
 	display: inline;	
 }
+
+/* Jumbotron */
 
 .banner {
 	display: inline-flex;
@@ -57,12 +61,12 @@ body {
 .banner img {
 	width: 60%;
 	height: auto;
-	padding: 32px 40px 32px 24px;
+	padding: 2rem 2.5rem 2rem 1.5rem;
 	float: left;
 }
 
 .banner-info {
-	width: 25%;
+	width: 30%;
 	display: inline;
 }
 
@@ -72,8 +76,10 @@ body {
 	align-items: center;
 }
 
+/* Quote and News block */
+
 .image-block {
-	padding: 32px 24px 32px 24px;
+	padding: 2rem 1.5rem 2rem 1.5rem;
 	width: 60%;
 }
 
@@ -84,13 +90,14 @@ body {
 }
 
 .news-blocks {
-	width: 423px;
+	max-width: 423px;
 	flex-direction: column;
 }
 
 .news-blocks img {
 	float: left;
-	padding: 16px;
+	padding: 1rem;
+	max-width: 35%;
 }
 
 .news {
@@ -98,6 +105,12 @@ body {
 	align-items: center;
 	
 }
+
+.image-block p {
+	padding-bottom: 1.5rem;
+}
+
+/* Headers */
 
 h1 {
 	font-weight: bold;
@@ -115,6 +128,7 @@ h3 {
 	font-size: 2rem;
 	font-weight: bold;
 	color: lightslategrey;
+	padding-bottom: 1rem;
 }
 
 h4 {
@@ -122,12 +136,23 @@ h4 {
 	font-weight: bold;
 	font-size: 1.5rem;
 	color:lightslategrey;
+	padding-bottom: 1.5rem;
 }
 
 h6 {
 	font-weight: bold;
 	color: #4C4C4C;
+	padding-bottom: .5rem;
 }
+
+button {
+	margin-top: .5rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	width: 85%;
+}
+
+/* Courses */
 
 .Start-learning {
 	display: inline-flex;
@@ -157,14 +182,16 @@ h6 {
 	text-align: center;
 }
 
+/* Thesis */
+
 .Thesis {
 	display: flex;
-	width: 100%;
+	max-width: 100%;
 	flex-wrap: wrap;
+	padding: 2rem 0 2rem 1.5rem;
 }
 
 .thesis-main {
-	padding-left: 1.5rem;
 	max-width: 50%;
 }
 
@@ -184,13 +211,11 @@ h6 {
 	width: 35%;
 }
 
-p {
-	padding-top: 24px;
-}
-
 video {
 	max-width: 100%;
 }
+
+/* footer */
 
 footer {
 	display: inline;
